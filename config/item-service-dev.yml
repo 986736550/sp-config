@@ -11,7 +11,13 @@ eureka:
       
 ---
 spring:
-  profiles: item1
+  profiles: item1  
+  rabbitmq:
+    host: 192.168.64.140
+    port: 5672
+    username: root
+    password: root
+      
   
 server:
   port: 8001
@@ -21,4 +27,3 @@ spring:
 
 server:
   port: 8002
-      
